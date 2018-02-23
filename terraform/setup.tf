@@ -10,7 +10,7 @@ resource "aws_cloudformation_stack" "kuber" {
   parameters {
     AvailabilityZone      = "us-west-2a"
     AdminIngressLocation  = "0.0.0.0/0"
-    KeyName               = "bvierra"
+    KeyName               = "CHANGEME TO A KEY YOU HAVE INSTALLED IN AWS"
     InstanceType          = "m3.medium"
     DiskSizeGb            = "40"
     BastionInstanceType   = "t2.micro"
