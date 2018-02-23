@@ -1,4 +1,5 @@
 setup-env
 *.tfstate
 *.tfstate.backup
-
+terraform/.terraform/
+*tfstate.lock.info
